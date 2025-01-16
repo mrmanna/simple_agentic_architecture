@@ -2,6 +2,7 @@
 # AI Agents" Is Just Marketing: For Software Engineers, This is Event-Driven Architecture (Agentic Architecture)
 
 Basically there is no 'AI Agent', those who know use the term "Agentic Architecture" to emphasize that these subscribers are agents acting on behalf of an AI model, rather than being inherently "intelligent" themselves. Still, "AI Agent" has become popular (often for marketing or buzzword reasons). As a software developer, remember that when people say "AI Agent," they're usually talking about a subscriber/worker that executes tasks dictated by an AI model - not a fully autonomous, self-thinking entity on its own.
+
 Some might argue they've seen AI Agents with features like "memory" or "chaining" of tasks. But remember, you could implement these same capabilities - tracking conversation state, chaining function calls, and orchestrating tasks - in any well-designed consumer as part of the event-driven workflow. "Memory" just means storing and retrieving context (e.g., in a database or cache), while "chaining" is about coordinating multiple steps or services. Neither requires the consumer itself to be "intelligent." Instead, it's still just reacting to events and managing state, which any software engineer can build without needing advanced ML expertise.
 
 ---
